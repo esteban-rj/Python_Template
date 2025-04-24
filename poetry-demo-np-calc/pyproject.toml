@@ -1,7 +1,7 @@
 [project]
 name = "np-calc"
-version = "0.1.0"
-description = ""
+version = "0.2.0"
+description = "np calc library"
 authors = [
     {name = "esteban-rj",email = "estebanelias27@gmail.com"}
 ]
