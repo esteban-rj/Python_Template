@@ -1,0 +1,25 @@
+[project]
+name = "django-api-rest"
+version = "0.1.0"
+description = "Api Rest with Django and Pokemons"
+authors = [
+    {name = "esteban-rj",email = "estebanelias27@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django (>=5.2,<6.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "requests-mock (>=1.12.1,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+django = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
